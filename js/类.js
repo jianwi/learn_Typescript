@@ -109,3 +109,12 @@ var A = /** @class */ (function (_super) {
     };
     return A;
 }(AnimalA));
+// 静态属性
+//  不用实例化，直接调用
+var abc = /** @class */ (function () {
+    function abc() {
+    }
+    abc.h_name = "abc";
+    return abc;
+}());
+console.log(abc.h_name);

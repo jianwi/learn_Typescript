@@ -111,3 +111,11 @@ class A extends AnimalA {
         
     }
 }
+
+// 静态属性
+//  不用实例化，直接调用
+class abc{
+    static h_name:string = "abc";
+}
+
+console.log(abc.h_name)
